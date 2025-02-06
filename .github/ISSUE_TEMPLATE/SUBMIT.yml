@@ -17,7 +17,6 @@ body:
       label: Runtime data
       description: Output data from command including /usr/bin/time -v output
       placeholder: Copy/paste output here
-      value: ""
     validations:
       required: true
   - type: input
