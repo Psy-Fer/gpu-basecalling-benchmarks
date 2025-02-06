@@ -1,7 +1,7 @@
 name: "Submit a benchmark"
 description: "Submit a new benchmark to be included in the repo"
 title: "[benchmark]: <GPU>-<basecaller>-<version>-<model>"
-lables: "benchmark"
+labels: ["benchmark"]
 assignees: "Psy-Fer"
 body:
   - type: markdown
