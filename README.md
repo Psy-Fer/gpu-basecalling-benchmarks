@@ -16,7 +16,10 @@ We hope this is helpful to the community.
 
 # plots
 
-samples per second - higher is better
+- These are placeholders with some preliminary data while we populate the repository
+
+
+### samples per second - higher is better
 
 <div style="width: 80%; height: 80%">
   
@@ -24,7 +27,7 @@ samples per second - higher is better
   
 </div>
 
-log time - lower is better
+### log time - lower is better
 
 <div style="width: 80%; height: 80%">
   
