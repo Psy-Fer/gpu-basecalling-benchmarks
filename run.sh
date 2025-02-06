@@ -29,4 +29,4 @@ cd models || die "Failed to cd to models"
 ../bin/slow5-dorado download --model ${MODEL} || die "Failed to download model"
 cd ../../ || die "Failed to cd back"
 
-/usr/bin/time -v slow5-dorado/bin/slow5-dorado basecaller --device=${DEVICE} slow5-dorado/models/"$MODEL" --emit-fastq "$DATA_NAME" > "$OUT_FILE" || die "Failed to basecall"
+/usr/bin/time -v slow5-dorado/bin/slow5-dorado basecaller --device ${DEVICE} slow5-dorado/models/"$MODEL" --emit-fastq "$DATA_NAME" > "$OUT_FILE" || die "Failed to basecall"
