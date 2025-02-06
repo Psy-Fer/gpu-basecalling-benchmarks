@@ -1,6 +1,8 @@
 name: "Submit a benchmark"
 description: "Submit a new benchmark to be included in the repo"
 title: "[benchmark]: <GPU>-<basecaller>-<version>-<model>"
+labels: ["benchmark"]
+assignees: "Psy-Fer"
 body:
   - type: markdown
     attributes:
@@ -11,13 +13,20 @@ body:
         For example, if you benchmarked an RTX 4090 with dorado version v0.9.1 using model dna_r10.4.1_e8.2_400bps_sup@v4.2.0, the title should be
         [benchmark]RTX 4090-dorado-v0.9.1-dna_r10.4.1_e8.2_400bps_sup@v4.2.0
         This will allow for quick triage of the benchmarking.
+  - type: input
+    id: gpu
+    attributes:
+      label: GPU
+      description: Which GPU was used?
+      placeholder: RTX 4090
+    validations:
+      required: true
   - type: textarea
     id: time-data
     attributes:
       label: Runtime data
       description: Output data from command including /usr/bin/time -v output
       placeholder: Copy/paste output here
-      value: ""
     validations:
       required: true
   - type: input
