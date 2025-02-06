@@ -1,8 +1,6 @@
-name: Submit a benchmark
-description: Submit a new benchmark to be included in the repo
+name: "Submit a benchmark"
+description: "Submit a new benchmark to be included in the repo"
 title: "[benchmark]: <GPU>-<basecaller>-<version>-<model>"
-labels: benchmark
-assignees: Psy-Fer
 body:
   - type: markdown
     attributes:
