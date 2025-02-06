@@ -8,9 +8,9 @@ One of the most important aspects of choosing hardware, especially if you are lo
 
 In this repo, we will present a number of GPUs, benchmarked with dorado and a standard small dataset. We will also have benchmarks using our slow5-dorado tool, buttery-eel caller that uses dorado-server, which is what is found in MinKNOW, as well as some experimental methods, like basecalling with AMD cards.
 
-If you have access to a GPU that is not present in our datasets and want to help us with more data, please download the example dataset (~11GB), and run the commands with the tools given in the methods section. Fill out the information present in the Pull Request template, so the results can be given some further context.
+If you have access to a GPU that is not present in our datasets and want to help us with more data, please download the example dataset (~11GB), and run the commands with the tools given in the methods section. Fill out the information present in the `Submit a benchmark` issue and we will try to incorporate it into the data.
 
-If you have any questions, find any bugs, see something wrong, or just want to discuss something, please create an issue.
+If you have any questions, find any bugs, see something wrong, or just want to discuss something, please create a regular issue
 
 We hope this is helpful to the community.
 

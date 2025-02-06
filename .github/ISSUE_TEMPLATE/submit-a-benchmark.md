@@ -31,7 +31,7 @@ Model:
 
 dataset description: Dataset 1 - HG002 human chr22 subset ~11gb
 format: [pod5/blow5/fast5]
-\
+
 ## Hardware of benchmark system
 
 GPU:
